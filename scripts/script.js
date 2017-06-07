@@ -21,4 +21,11 @@ $(function () {
 			$("#technic").after("<dl><dt>" + data.technic[i][0] + "</dt><dd>" + data.technic[i][1] + "</dd></dl>");
 		}
 	});
+	
+	$(".song__link > a").click(function(){
+		$(".song__lyrics").remove();
+		$(this).closest(".songListEle").append('<div class="song__lyrics"></div>');
+		$(".song__lyrics").load( "./lyrics/amenohi.html .lyrics" );
+		return false;
+	});
 });

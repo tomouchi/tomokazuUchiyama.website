@@ -300,7 +300,6 @@ footer {
 	margin: 1em auto 1.5em;
 }
 .lyrics__info>div>li {
-	border-left: 0.2em solid rgba(120,120,120,1.00);
 	display: inline-block;
 	padding: 0.2em 0.5em;
 }
@@ -346,7 +345,9 @@ footer {
 	margin: 0.5em 0;
 	line-height: 1;
 }
-
+.song__lyrics>.lyrics {
+	background-color: initial;
+}
 @media (min-width:768px) {
 .songListEle {
 	background-image: url(images/listBackgroundImage.jpg);

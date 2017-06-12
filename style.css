@@ -99,6 +99,9 @@ body {
 }
 /* Title△△△△△△△△△△△△△△△△△△△△*/
 /* Nav▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
+.nav{
+	margin-bottom: 2.5em;
+}
 .nav__list {
 	margin-top: 1em;
 	width: 100%;
@@ -168,11 +171,6 @@ footer {
 /* Layout△△△△△△△△△△△△△△△△△△△△*/
 
 /* TOP▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
-.mainvisual {
-	height: auto;
-	margin-top: 2.5em;
-	width: 100%;
-}
 .info__row__ele{
 	background-image: url(images/listBackgroundImage.jpg);
 	background-size: cover;

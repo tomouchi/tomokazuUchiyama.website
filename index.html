@@ -28,14 +28,16 @@
 <link rel="manifest" href="favicon/manifest.json">
 <meta name="msapplication-TileColor" content="#2d88ef">
 <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+<link href="normalize.css" rel="stylesheet" type="text/css">
+<link href="style.css" rel="stylesheet" type="text/css">
+<link href="flexslider.css" rel="stylesheet" type="text/css" />
 <script
   src="https://code.jquery.com/jquery-3.2.1.min.js"
   integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
   crossorigin="anonymous">
 </script>
-<script type="text/javascript" src="scripts/script.js"></script> 
-<link href="normalize.css" rel="stylesheet" type="text/css">
-<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/script.js"></script>
+<script type="text/javascript" src="scripts/jquery.flexslider-min.js"></script>
 </head>
 
 <body>
@@ -47,14 +49,19 @@
 </header>
 <nav class="nav">
   <ul class="nav__list">
-    <li class="nav__list__ele"><a href="info.html">INFO</a></li>  
+    <li class="nav__list__ele"><a href="info.html">INFO</a></li>
     <li class="nav__list__ele"><a href="music/index.html">MUSIC</a></li>
     <li class="nav__list__ele"><a href="profileBiography.html">PROFILE &amp; BIOGRAPHY</a></li>
     <li class="nav__list__ele nav__list__ele--end"><a href="lyrics/index.html">LYRICS</a></li>
   </ul>
 </nav>
 <main>
-  <div><img src="images/top.jpg" class="mainvisual"/></div>
+  <div class="flexslider">
+    <ul class="slides">
+		<li><a href="music/index.html#ayumumichi"><img src="images/top.jpg"/></a></li>
+		<li><a href="music/index.html#wisteria"><img src="images/wisteria.jpg"/></a></li>
+    </ul>
+  </div>
   <div class="info">
     <h3 class="title--third">Info</h3>
     <div class="info__row clearfix">
@@ -82,4 +89,3 @@
 <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </body>
 </html>
-

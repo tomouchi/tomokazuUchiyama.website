@@ -1,5 +1,6 @@
-// JavaScript Document
 $(function () {
+	// TOP▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+	// INFO▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
 	"use strict";
 	$.getJSON("info.json", function (data) {
 
@@ -21,7 +22,18 @@ $(function () {
 			$("#technic").after("<dl><dt>" + data.technic[i][0] + "</dt><dd>" + data.technic[i][1] + "</dd></dl>");
 		}
 	});
+	// INFO△△△△△△△△△△△△△△△△△△△△
 
+	// mainVisual▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+	$('.flexslider').flexslider({
+		directionNav:false,
+		slideshowSpeed:5000
+	});
+	// mainVisual△△△△△△△△△△△△△△△△△△△△
+	
+	// TOP△△△△△△△△△△△△△△△△△△△△
+
+	// MUSIC▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
 	$(".song__link > a").click(function () {
 
 		$(".song__lyrics:not(:animated)").slideUp("slow");
@@ -46,8 +58,10 @@ $(function () {
 			}
 
 		}
-		
+
 		return false;
 
 	});
+	// MUSIC△△△△△△△△△△△△△△△△△△△△
+
 });

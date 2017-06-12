@@ -27,7 +27,7 @@ $(function () {
 	// mainVisual▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
 	$('.flexslider').flexslider({
 		directionNav:false,
-		slideshowSpeed:5000
+		slideshowSpeed:3000
 	});
 	// mainVisual△△△△△△△△△△△△△△△△△△△△
 	

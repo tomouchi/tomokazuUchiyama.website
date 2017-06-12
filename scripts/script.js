@@ -24,13 +24,8 @@ $(function () {
 	});
 	// INFO△△△△△△△△△△△△△△△△△△△△
 
-	// mainVisual▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
-	$('.flexslider').flexslider({
-		directionNav:false,
-		slideshowSpeed:3000
-	});
-	// mainVisual△△△△△△△△△△△△△△△△△△△△
-	
+
+
 	// TOP△△△△△△△△△△△△△△△△△△△△
 
 	// MUSIC▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
@@ -63,5 +58,12 @@ $(function () {
 
 	});
 	// MUSIC△△△△△△△△△△△△△△△△△△△△
+
+	// mainVisual▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
+	$('.flexslider').flexslider({
+		directionNav: false,
+		slideshowSpeed: 3000
+	});
+	// mainVisual△△△△△△△△△△△△△△△△△△△△
 
 });

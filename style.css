@@ -280,7 +280,8 @@ footer {
 
 /* LYRICS▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
 .lyrics {
-	background-color: rgba(220, 220, 220, 1.00 );
+	background-image: url(images/listBackgroundImage.jpg);
+	background-size: cover;
 	font-size: 0.9em;
 	margin: 2em auto 0;
 	padding: 1em;

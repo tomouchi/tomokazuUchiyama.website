@@ -62,7 +62,6 @@ $(function () {
 	// mainVisual▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼
 	$('.flexslider').flexslider({
 		directionNav: false,
-		slideshowSpeed:6000,
 		animationSpeed:3000
 	});
 	// mainVisual△△△△△△△△△△△△△△△△△△△△

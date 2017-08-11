@@ -99,6 +99,9 @@ body {
 }
 /* Title△△△△△△△△△△△△△△△△△△△△*/
 /* Nav▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
+.nav{
+	margin-bottom: 2.5em;
+}
 .nav__list {
 	margin-top: 1em;
 	width: 100%;
@@ -168,11 +171,6 @@ footer {
 /* Layout△△△△△△△△△△△△△△△△△△△△*/
 
 /* TOP▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
-.mainvisual {
-	height: auto;
-	margin-top: 2.5em;
-	width: 100%;
-}
 .info__row__ele{
 	background-image: url(images/listBackgroundImage.jpg);
 	background-size: cover;
@@ -282,7 +280,8 @@ footer {
 
 /* LYRICS▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼▼*/
 .lyrics {
-	background-color: rgba(220, 220, 220, 1.00 );
+	background-image: url(images/listBackgroundImage.jpg);
+	background-size: cover;
 	font-size: 0.9em;
 	margin: 2em auto 0;
 	padding: 1em;
@@ -331,6 +330,9 @@ footer {
 	border-left: thin solid #666666;
 	margin: 2em 0;
 	padding: 0.5em 0.4em 0.1em;
+}
+.song__thumbnail>img {
+	width: 150px;
 }
 .song__title {
 	display: inline-block;

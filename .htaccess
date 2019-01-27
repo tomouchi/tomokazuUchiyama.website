@@ -2,5 +2,5 @@ ErrorDocument 404 /error.html
 
 AddType image/xicon .ico
 <Files favicon.ico>
-ErrorDocument 404 http://tomokazuuchiyama.website/favicon/favicon.ico
+ErrorDocument 404 /favicon/favicon.ico
 </Files>
